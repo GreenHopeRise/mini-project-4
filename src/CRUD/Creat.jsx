@@ -1,28 +1,26 @@
 import React, { useState } from 'react'
 
 const Creat = () => {
-    const [users, setUsers]= useState([
-        {id: 1, name:'khalid'},
-        {id:2, name:'phool'}
+    const [data, setData] = useState([
+        {id:1, name:'Khalid'}
     ])
-    const [name, setName]=useState('')
-    const addUser = ()=>{
-        const newUser ={
-            id: Date.now(),
-            name: name
+    const [name, setName] =  useState('')
+    const handleChange = ()=>{
+        const newName = {
+            id: Date.now()
+            , name: name
         }
-        setUsers([...users,newUser])
+        setData([...data, newName])
         setName('')
     }
   return (
     <div>
         <input type="text" name="name" value={name} onChange={(e)=>setName(e.target.value)} />
-        <button onClick={addUser}>Add User</button>
-
+        <button onClick={handleChange}>Submit</button>
         {
-            users.map((e)=>{
+            data.map((d)=>{
                 return(
-                    <p key={e.id}>{e.name}</p>
+                    <p key={d.id}>{d.name}</p>
                 )
             })
         }
