@@ -1,6 +1,10 @@
 
 import './App.css'
-import Converter from './Converter'
+import Creat from './CRUD/Creat'
+
+import Read from './CRUD/Read'
+import Form from './Form'
+
 
 
 function App() {
@@ -8,7 +12,9 @@ function App() {
 
   return (
     <>
-      <Converter/>
+      
+      <Read/>
+      <Creat/>
     </>
   )
 }
