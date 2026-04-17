@@ -2,6 +2,7 @@
 import './App.css'
 import Creat from './CRUD/Creat'
 import Delete from './CRUD/Delete'
+import Practice from './CRUD/Practice'
 
 import Read from './CRUD/Read'
 import Up from './CRUD/Up'
@@ -16,11 +17,12 @@ function App() {
   return (
     <>
       
-      {/* <Read/>
-      <Creat/>
-      <Delete/> */}
+      {/* <Read/>*/}
+      {/* <Delete/>  */}
+      {/* <Creat/> */}
       {/* <Update/> */}
-      <Up/>
+      {/* <Up/> */}
+      <Practice/>
     </>
   )
 }
