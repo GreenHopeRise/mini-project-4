@@ -9,7 +9,7 @@ const Errors = () => {
         setError(null);
         setTimeout(() => {
             try{
-                const suc = Math.random()>0.8
+                const suc = Math.random()>0.5
                 if(!suc){
                     throw new Error('Faild to load')
                 }
@@ -40,6 +40,7 @@ const Errors = () => {
                     <p key={u.id}>{u.name}</p>
                 ))
             }
+            
         </div>
     );
 };

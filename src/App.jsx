@@ -11,6 +11,7 @@ import Form from './Form'
 import Errors from './Loading/Error'
 // import <Errors></Errors> from './Loading/Errors'
 import Loading from './Loading/Loading'
+import Practicet from './Loading/Practice'
 
 
 
@@ -27,7 +28,8 @@ function App() {
       {/* <Up/> */}
       {/* <Practice/> */}
       {/* <Loading/> */}
-      <Errors/>
+      {/* <Errors/> */}
+      <Practicet/>
     </>
   )
 }
