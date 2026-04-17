@@ -1,4 +1,6 @@
 
+import Learning from './Api/Learning'
+import TrueForm from './Api/TrueForm'
 import './App.css'
 import Creat from './CRUD/Creat'
 import Delete from './CRUD/Delete'
@@ -29,7 +31,9 @@ function App() {
       {/* <Practice/> */}
       {/* <Loading/> */}
       {/* <Errors/> */}
-      <Practicet/>
+      {/* <Practicet/> */}
+      {/* <Learning/> */}
+      <TrueForm/>
     </>
   )
 }
