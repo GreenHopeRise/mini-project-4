@@ -8,6 +8,9 @@ import Read from './CRUD/Read'
 import Up from './CRUD/Up'
 import Update from './CRUD/Update'
 import Form from './Form'
+import Errors from './Loading/Error'
+// import <Errors></Errors> from './Loading/Errors'
+import Loading from './Loading/Loading'
 
 
 
@@ -22,7 +25,9 @@ function App() {
       {/* <Creat/> */}
       {/* <Update/> */}
       {/* <Up/> */}
-      <Practice/>
+      {/* <Practice/> */}
+      {/* <Loading/> */}
+      <Errors/>
     </>
   )
 }
