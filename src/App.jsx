@@ -11,6 +11,8 @@ import Read from './CRUD/Read'
 import Up from './CRUD/Up'
 import Update from './CRUD/Update'
 import Form from './Form'
+import Forms from './Form/Forms'
+import MultipalInput from './Form/MultipalInput'
 import Errors from './Loading/Error'
 // import <Errors></Errors> from './Loading/Errors'
 import Loading from './Loading/Loading'
@@ -37,7 +39,9 @@ function App() {
       {/* <Learning/> */}
       {/* <TrueForm/> */}
       {/* <Crud2/> */}
-      <Loading2/>
+      {/* <Loading2/> */}
+      {/* <Forms/> */}
+      <MultipalInput/>
     </>
   )
 }
